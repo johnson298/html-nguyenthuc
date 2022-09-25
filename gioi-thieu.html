@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/bootstrap-5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fontawesome-6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="asset/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/source.js"></script>
+
+
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="left">
+            <h6>Nguyễn Thực</h6>
+            <span>Tư vấn xác thực tài liệu thật giả</span>
+        </div>
+        <div class="right">
+            <div>
+                <img src="asset/images/icon/phone.svg" alt="" class="icon">
+                09876543345
+            </div>
+            <div class="form-search-top">
+                <form action="">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img src="asset/images/icon/search.svg" alt="">
+                        </span>
+                        <input type="text" class="form-control" placeholder="Tìm kiếm">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-icon">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="asset/images/logo.svg" alt="">
+            </a>
+            <div class="x-contact x-contact-top">
+                <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <div class="txt">
+                    <div>Hotline 24/7:</div>
+                    <strong class="d-block">0987654233</strong>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Tư vấn xác thực
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Đào tạo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ sang tên BĐS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cảnh báo rủi ro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <div class="menu-mobile-top">
+                <img src="asset/images/logo.svg" alt="">
+                <span>Tư vấn xác thực tài liệu thật giả</span>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="menu-mobile">
+
+                <ul>
+                    <li class="active"><a href="">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li>
+                        <a data-bs-toggle="collapse" href="#collapsetuvan" role="button" aria-expanded="false"
+                           aria-controls="collapsetuvan">Tư vấn xác thực <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="collapse" id="collapsetuvan">
+                            <div class="menu-mobile-child">
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Đào tạo</a></li>
+                    <li><a href="">Hỗ trợ sang tên BĐS</a></li>
+                    <li><a href="">Cảnh báo rủi ro</a></li>
+                    <li><a href="">Hỗ trợ</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+
+                <div class="d-flex justify-content-center">
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="wrapper py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5 class="bold700">Về chúng tôi</h5>
+                <h4 class="text-base bold700">Công ty cổ phần tư vấn Nguyên Thực</h4>
+                <div>Công ty cổ phần tư vấn Nguyên Thực (Nguyên Thực) được thành lập từ ngày 01/10/2010 với mục tiêu đồng hành cùng khách hàng trong việc phòng ngừa và ngăn chặn rủi ro về giấy tờ, tài liệu giả mạo. Nguyên Thực là đơn vị đầu tiên trên thị trường cung cấp các dịch vụ Tư vấn xác thực tài liệu và dịch vụ Đào tạo kỹ năng nhận biết giấy tờ thật giả  nhằm xác thực tính thật giả của giấy tờ, tài liệu với mục đích ngăn ngừa rủi ro giả mạo giấy tờ, góp phần đấu tranh phòng chống tội phạm làm giả giấy tờ, tài liệu của các cơ quan, tổ chức và cá nhân.</div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="img-gt">
+                    <img src="asset/images/gt.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="box-dh">
+            <div class="dh-head">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h5 class="bold700 font2">Đối tác đồng hành tin cậy cùng</h5>
+                        <div class="d-flex dh-plus">
+                            <strong>50+</strong>
+                            <span>ngân hàng Thương mại tại Việt Nam cũng như nhiều tổ chức, doanh nhiệp, cá nhân khác</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="dh-bank">
+                            <img src="asset/images/bank/1.png" alt="">
+                            <img src="asset/images/bank/2.png" alt="">
+                            <img src="asset/images/bank/3.png" alt="">
+                            <img src="asset/images/bank/4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="txt">
+                Trải qua 10 năm hoạt động Nguyên Thực có 1 đội ngũ nhân sự tinh nhuệ là những chuyên gia cấp cao giàu kinh nghiệm trong lĩnh vực giám định tài liệu. Nguyên Thực đã và đang trở thành đối tác tin cậy đồng hành cùng với hơn 20 ngân hàng Thương mại vại Việt Nam cũng như nhiều tổ chức, doanh nhiệp, cá nhân khác. Chuyên xác thực các loại giấy tờ, tài liệu như Sổ đỏ/trắng/hồng, giấy tờ xe, chứng minh nhân dân, hộ chiếu, hồ sơ vay vốn, hợp đồng kinh tế, chứng từ giao dịch trong ngân hàng, bằng cấp, chứng chỉ đào tạo v.v... Cán bộ, nhân viên của các Ngân hàng thương mại cũng thường xuyên được tham gia các khóa đào tạo của Nguyên Thực về kỹ năng nhận biết và phát hiện tài liệu giả mạo để nâng cao khả năng quản trị rủi ro hoạt động cho các Ngân hàng.
+            </div>
+        </div>
+    </div>
+    <div class="container plans-b">
+        <h5 class="text-center font2 bold700">Nguyên Thực</h5>
+        <h4 class="text-center text-base font2 bold700">Lịch sử hình thành & phát triễn</h4>
+
+        <div class="plans">
+            <div class="line d-none d-md-block"><img src="asset/images/icon/plan/line.svg" alt=""></div>
+            <div class="line d-block d-md-none line-mobile"><img src="asset/images/icon/plan/line-mobile.svg" alt=""></div>
+            <div class="plan-box left plan-box-1">
+                <div class="date"><img src="asset/images/icon/plan/1.svg" alt=""><span> Ngày 01/10/2010</span></div>
+                <div class="txt">Công ty cổ phần tư vấn Nguyên Thực được thành lập.</div>
+            </div>
+            <div class="plan-box right plan-box-8">
+                <div class="date"><img src="asset/images/icon/plan/2.svg" alt=""><span> Tháng 12/2010</span></div>
+                <div class="txt">Triển khai nội dung hợp tác với Techcombank và VPBS.</div>
+            </div>
+            <div class="plan-box left plan-box-2">
+                <div class="date"><img src="asset/images/icon/plan/3.svg" alt=""><span> Ngày 14/10/2011</span></div>
+                <div class="txt">Thành lập chi nhánh Công ty cổ phần tư vấn Nguyên Thực tại TP. HCM.</div>
+            </div>
+            <div class="plan-box right plan-box-9">
+                <div class="date"><img src="asset/images/icon/plan/4.svg" alt=""><span> Tháng 12/2011</span></div>
+                <div class="txt">Triển khai nội dung hợp tác trên cả 02 lĩnh vực Đào tạo và Tư vấn xác thực với 12 khách hàng: Vietcombank, Vietinbank, BIDV, Techcombank, MB Bank, Sacombank, VPBank, SHB, Habubank, PG Bank, VPBS và BTC. </div>
+            </div>
+            <div class="plan-box left plan-box-3">
+                <div class="date"><img src="asset/images/icon/plan/5.svg" alt=""><span> Tháng 12/2012</span></div>
+                <div class="txt">Các khách hàng uy tín có quan hệ hợp tác chặt chẽ với Nguyên Thực đã lên con số 20 khách hàng: Vietcombank, Vietinbank, BIDV, Techcombank, MB Bank, Sacombank, VPBank, SHB, Habubank, PG Bank, VPBS, BTC, ACB, VIB, Eximbank, Maritime Bank, SeABank, LienViet Post Bank, Indovina Bank và Hong Leong Bank.</div>
+            </div>
+            <div class="plan-box right plan-box-10">
+                <div class="date"><img src="asset/images/icon/plan/6.svg" alt=""><span> Ngày 26/04/2013</span></div>
+                <div class="txt">Nguyên Thực đồng tổ chức với Cơ quan Thanh tra, Giám sát Ngân hàng - Ngân hàng Nhà nước tổ chức Chương trình tọa đàm “TÌNH HÌNH GIẤY TỜ GIẢ MẠO TRONG GIAO DỊCH NGÂN HÀNG & GIẢI PHÁP PHÒNG NGỪA” cho đại diện Ban Lãnh đạo, Lãnh đạo các bộ phận quản trị rủi ro của 52 Ngân hàng và 40 Công ty tài chính trong cả nước.</div>
+            </div>
+            <div class="plan-box left plan-box-4">
+                <div class="date"><img src="asset/images/icon/plan/7.svg" alt=""><span> Tháng 12/2013</span></div>
+                <div class="txt">Nguyên Thực tự hào đã và đang triển khai nội dung hợp tác hiệu quả các chương trình tư vấn đào tạo và dịch vụ tư vấn xác thực giấy tờ tài sản bảo đảm, giấy tờ liên quan tới các hoạt động giao dịch ngân quỹ, tín dụng, tài trợ thương mại và bảo lãnh với 22 ngân hàng và tổ chức tài chính: Vietcombank, Vietinbank, BIDV, Techcombank, MB Bank, Sacombank, VPBank, SHB, Habubank, PG Bank, VPBS, BTC, ACB, VIB, Eximbank, Maritime Bank, SeABank, LienViet Post Bank, Indovina Bank, Hong Leong Bank, Tien Phong Bank và VNCB.</div>
+            </div>
+            <div class="plan-box right plan-box-11">
+                <div class="date"><img src="asset/images/icon/plan/8.svg" alt=""><span> Tháng 04/2015</span></div>
+                <div class="txt">Nguyên Thực cho ra mắt sản phẩm dịch vụ mới là “DỊCH VỤ TRỌN GÓI HỖ TRỢ SANG TÊN BẤT ĐỘNG SẢN” dành cho các khoản vay mua Bất động sản của Techcombank (04/2015) </div>
+            </div>
+            <div class="plan-box left plan-box-5">
+                <div class="date"><img src="asset/images/icon/plan/9.svg" alt=""><span> Tháng 12/2015</span></div>
+                <div class="txt">Nguyên Thực triển khai dịch vụ hỗ trợ sang tên trong gói dịch vụ  “DỊCH VỤ VAY MUA NHÀ GIẢI NGÂN NHANH” dành cho các khoản vay mua Bất động sản của TP Bank  (12/2015).</div>
+            </div>
+            <div class="plan-box right plan-box-12">
+                <div class="date"><img src="asset/images/icon/plan/10.svg" alt=""><span> Tháng 05/2016</span></div>
+                <div class="txt">Nguyên Thực tiếp tục mở rộng triển khai gói sản phẩm dịch vụ  “DỊCH VỤ HỖ TRỢ SANG TÊN SỔ ĐỎ” dành cho các khoản vay mua Bất động sản của Ngân hàng Quân đội (MB) </div>
+            </div>
+            <div class="plan-box left plan-box-6">
+                <div class="date"><img src="asset/images/icon/plan/11.svg" alt=""><span> Tháng 05/2016</span></div>
+                <div class="txt">Nguyên Thực hợp tác với VP Bank trong gói sản phẩm dịch vụ “DỊCH VỤ TRỌN GÓI HỖ TRỢ SANG TÊN BẤT ĐỘNG SẢN”.</div>
+            </div>
+            <div class="plan-box right plan-box-13">
+                <div class="date"><img src="asset/images/icon/plan/12.svg" alt=""><span> Tháng 06/2016</span></div>
+                <div class="txt">Để đáp ứng nhu cầu dịch vụ của Khách hàng, Nguyên Thực mở rộng thêm địa điểm tiếp nhận hồ sơ Dịch vụ Tư vấn xác thực tại tầng 4, số 101 Láng Hạ, Đống Đa, Hà Nội.</div>
+            </div>
+            <div class="plan-box left plan-box-7">
+                <div class="date"><img src="asset/images/icon/plan/13.svg" alt=""><span> Tháng 05/2017</span></div>
+                <div class="txt">Nguyên Thực chuyển Văn phòng Giao dịch mới tại Tòa Nhà Thái Bình - Số 2 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Tp. Hà Nội.</div>
+            </div>
+            <div class="plan-box right plan-box-14">
+                <div class="date"><img src="asset/images/icon/plan/14.svg" alt=""><span> Tháng 02/2021</span></div>
+                <div class="txt">Nguyên Thực chuyển Chi Nhánh Hồ Chí Minh tới địa điểm mới tại: Lầu 5B, Tòa nhà Smart View, số 163 Trần Hưng Đạo, phường Cô Giang, Quận 1, TP. HCM. </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-gt container-fluid my-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 d-none d-lg-block"></div>
+            <div class="col-12 col-lg-6">
+                <div class="values">
+                    <img src="asset/images/icon/globe.svg" alt="">
+                    <div class="ct">
+                        <h5 class="text-base font2 bold700">Tầm nhìn</h5>
+                        <div>Là Công ty dẫn đầu tại Việt Nam cung cấp dịch vụ phòng ngừa rủi ro về giấy tờ giả mạo cho các tổ chức tín dụng, doanh nghiệp và cá nhân. Đồng thời đào tạo kỹ năng nhận biết giấy tờ thật giả thông qua đội ngũ chuyên gia giàu kinh nghiệm.</div>
+                    </div>
+                </div>
+                <div class="values">
+                    <img src="asset/images/icon/briefcase.svg" alt="">
+                    <div class="ct">
+                        <h5 class="text-base font2 bold700">Sứ mệnh</h5>
+                        <div>
+                            <ul>
+                                <li>Cung cấp các dịch vụ hữu ích cho khách hàng và góp phần đấu tranh phòng chống tội phạm giả mạo giấy tờ bằng nghiệp vụ và công cụ giám định chuyên biệt. </li>
+                                <li>Tạo điều kiện tối ưu để Cán bộ Nhân viên có môi trường ổn định và cơ hội phát huy năng lực sáng tạo, phát triển bản thân. </li>
+                                <li>Bảo vệ sự thật và mang lại những giá trị đích thực cho cộng đồng.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="values">
+                    <img src="asset/images/icon/award.svg" alt="">
+                    <div class="ct">
+                        <h5 class="text-base font2 bold700">Giá trị cốt lõi</h5>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container section-activity my-4">
+        <h4 class="text-center font2 text-base bold700 mb-4 mt-5">Hoạt động cộng đồng</h4>
+        <div class="slide-activity">
+            <div class="d-inline-block px-2">
+                <div class="ac-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/loi-ich.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <div class="title">Lorem ipsum dolor sit amet.</div>
+                            <div class="icon"><i class="fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="d-inline-block px-2">
+                <div class="ac-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/loi-ich.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <div class="title">Lorem ipsum dolor sit amet.</div>
+                            <div class="icon"><i class="fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="d-inline-block px-2">
+                <div class="ac-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/loi-ich.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <div class="title">Lorem ipsum dolor sit amet.</div>
+                            <div class="icon"><i class="fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="d-inline-block px-2">
+                <div class="ac-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/loi-ich.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <div class="title">Lorem ipsum dolor sit amet.</div>
+                            <div class="icon"><i class="fa-solid fa-chevron-right"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-dk">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 dk-left">
+                <div class="wrap-dk-left">
+                    <div class="box-contact">
+                        <div class="title">Trụ sở tại Hà Nội:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Tầng 10, Tòa Nhà Thái Bình, số 2A Đại Cồ Việt, P. Lê Đại Hành, Q. Hai Bà Trưng, Hà Nội</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                    <div class="box-contact">
+                        <div class="title">CN tại Tp. Hồ Chí Minh:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Lầu 5B, Tòa nhà Smart View, số 163 Trần Hưng Đạo, P. Cô Giang, Quận 1, TP. HCM</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 dk-right">
+                <div class="wrap-dk-right">
+                    <div class="text-center">
+                        <h5 class="font2 bold700 text-white">Bạn cần hỗ trợ?</h5>
+                        <h3 class="font2 bold700 text-white">Đăng ký tư vấn ngay</h3>
+                        <div class="text-white">Để lại thông tin bên dưới, Nguyên Thực sẽ liên hệ với bạn trong thời gian sớm nhất!</div>
+                    </div>
+                    <form action="" class="form-dk mt-4">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" placeholder="Họ tên *">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Số điện thoại*">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="btn btn-dk">GỬI XÁC NHẬN TƯ VẤN <i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="d-flex foot-left">
+                    <div class="logo-foot">
+                        <img src="asset/images/logo-red.svg" alt="">
+                    </div>
+                    <div class="copyright">
+                        <h6 class="bold600">Công ty cổ phần tư vấn <strong class="text-base">Nguyên Thực</strong></h6>
+                        <small>© 2022 <strong>Nguyên Thực</strong>. All Rights Reserved.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="d-flex align-items-center foot-right">
+                    <ul>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                    </ul>
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="asset/js/source.js"></script>
+</body>
+</html>

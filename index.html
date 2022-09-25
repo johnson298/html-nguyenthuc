@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/bootstrap-5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fontawesome-6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/bootstrap-5.2.0/js/bootstrap.min.js"></script>
+
+    <script src="asset/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/source.js"></script>
+
+
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="left">
+            <h6>Nguyễn Thực</h6>
+            <span>Tư vấn xác thực tài liệu thật giả</span>
+        </div>
+        <div class="right">
+            <div>
+                <img src="asset/images/icon/phone.svg" alt="" class="icon">
+                09876543345
+            </div>
+            <div class="form-search-top">
+                <form action="">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img src="asset/images/icon/search.svg" alt="">
+                        </span>
+                        <input type="text" class="form-control" placeholder="Tìm kiếm">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-icon">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="asset/images/logo.svg" alt="">
+            </a>
+            <div class="x-contact  x-contact-top">
+                <a href="">
+                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <div class="txt">
+                        <div>Hotline 24/7:</div>
+                        <strong class="d-block">0987654233</strong>
+                    </div>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tư vấn xác thực
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Đào tạo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ sang tên BĐS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cảnh báo rủi ro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <div class="menu-mobile-top">
+                <img src="asset/images/logo.svg" alt="">
+                <span>Tư vấn xác thực tài liệu thật giả</span>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="menu-mobile">
+
+                <ul>
+                    <li class="active"><a href="">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li>
+                        <a data-bs-toggle="collapse" href="#collapsetuvan" role="button" aria-expanded="false" aria-controls="collapsetuvan">Tư vấn xác thực <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="collapse" id="collapsetuvan">
+                            <div class="menu-mobile-child">
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Đào tạo</a></li>
+                    <li><a href="">Hỗ trợ sang tên BĐS</a></li>
+                    <li><a href="">Cảnh báo rủi ro</a></li>
+                    <li><a href="">Hỗ trợ</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+
+                <div class="d-flex justify-content-center">
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="banner">
+    <div class="slide-banner-top">
+        <div class="d-inline-block">
+            <a href="">
+                <img src="asset/images/banner1.png" alt="">
+            </a>
+        </div>
+        <div class="d-inline-block">
+            <a href="">
+                <img src="asset/images/banner2.png" alt="">
+            </a>
+        </div>
+        <div class="d-inline-block">
+            <a href="">
+                <img src="asset/images/banner3.png" alt="">
+            </a>
+        </div>
+        <div class="d-inline-block">
+            <a href="">
+                <img src="asset/images/banner4.png" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="section-tv">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h5>Tư vấn xác thực tài liệu</h5>
+                <h3 class="title-nt">Nguyên thực</h3>
+                <div>
+                    Công ty cổ phần tư vấn Nguyên Thực (Nguyên Thực) được thành lập từ ngày 01/10/2010 với mục tiêu đồng hành cùng khách hàng trong việc phòng ngừa và ngăn chặn rủi ro về giấy tờ, tài liệu giả mạo. Nguyên Thực là đơn vị đầu tiên trên thị trường cung cấp các dịch vụ Tư vấn xác thực tài liệu và dịch vụ Đào tạo kỹ năng nhận biết giấy tờ thật giả  nhằm xác thực tính thật giả của giấy tờ, tài liệu với mục đích ngăn ngừa rủi ro giả mạo giấy tờ, góp phần đấu tranh phòng chống tội phạm làm giả giấy tờ, tài liệu của các cơ quan, tổ chức và cá nhân.
+                </div>
+                <a href="" class="btn-base btn mt-3">XEM THÊM <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="img-b">
+                    <div class="img img-b1">
+                        <img src="asset/images/b1.png" alt="">
+                    </div>
+                    <div class="img img-b2">
+                        <img src="asset/images/b2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="good-box">
+                    <div class="good-box-item">
+                        <img src="asset/images/icon/fast.svg" alt="">
+                        <span>Nhanh chóng, Chính xác, Chuyên nghiệp</span>
+                    </div>
+                    <div class="good-box-item">
+                        <img src="asset/images/icon/machine.svg" alt="">
+                        <span>Máy móc, thiết bị kỹ thuật hiện đại</span>
+                    </div>
+                    <div class="good-box-item">
+                        <img src="asset/images/icon/service.svg" alt="">
+                        <span>Hệ thống bảo mật thông tin chuyên nghiệp</span>
+                    </div>
+                    <div class="good-box-item">
+                        <img src="asset/images/icon/team.svg" alt="">
+                        <span>Đội ngũ chuyên gia giàu kinh nghiệm</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-cc">
+    <div class="container">
+        <h2 class="title-page text-white">Chúng tôi cung cấp</h2>
+        <div class="box-cc row gap-3 gap-md-0">
+            <div class="col-12 col-md-4">
+                <div class="box-cc-item">
+                    <div class="i-title">DỊCH VỤ TƯ VẤN XÁC THỰC</div>
+                    <div class="lst">
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Giấy tờ tùy thân</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Giấy tờ nhà đất</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Giấy tờ xe</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Hợp đồng, giấy nhận nợ</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Bằng cấp, chứng chỉ đào tạo</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Chữ ký, hình dấu</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tính nguyên thủy của tài liệu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="box-cc-item">
+                    <div class="i-title">DỊCH VỤ HỖ TRỢ SANG TÊN BĐS</div>
+                    <div class="lst">
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Giấy tờ tùy thân</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Tư vấn xác thực Giấy tờ nhà đất</a>
+                        <div class="quote-title quote-cc">
+                            <span style="background: #F4F7F8;"><img src="asset/images/icon/quote.svg" alt=""></span>
+                        </div>
+                        <div class="txt-cc">
+                            Nguyên Thực tự hào là đơn vị đã và đang sát cánh cùng các Ngân hàng, Doanh nghiệp và các Cá nhân trong việc truyền thông rộng rãi và nâng cao ý thức phòng ngừa rủi ro; cũng như chia sẻ một số kiến thức, phương pháp phòng ngừa cơ bản thông qua các chương trình Tư vấn đào tạo và Tọa đàm chuyên đề mang tính thiết thực cao mà chúng tôi cung cấp.
+                        </div>
+                        <div class="d-flex justify-content-center mt-4">
+                            <a href="" class="btn btn-base">LIÊN HỆ TƯ VẤN <img src="asset/images/icon/mail.svg" alt="" class="ms-2"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="box-cc-item">
+                    <div class="i-title">DỊCH VỤ ĐÀO TẠO</div>
+                    <div class="lst">
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Nghiên cứu về Giấy bạc và phương pháp nhận biết Giấy bạc thật/ giả</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Phương pháp nhận biết Chữ ký giả mạo</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Phương pháp nhận biết Hình dấu, Tài liệu và Chứng từ giả</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Hướng dẫn nhận dạng Khuôn mặt và vân tay</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Thực trạng tội phạm trong lĩnh vực ngân hàng và giải pháp phòng ngừa</a>
+                        <a class="txt" href=""><img src="asset/images/icon/carret-right-red.svg" alt="" class="me-2">Đăng ký tham gia khóa học đào tạo online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-kh">
+    <div class="container">
+        <div class="title-page">Khách hàng & Đối tác</div>
+        <div class="quote-title">
+            <span><img src="asset/images/icon/quote.svg" alt=""></span>
+        </div>
+        <div class="my-5 text-center">Chúng tôi tự hào đã tạo dựng được thương hiệu và mối quan hệ hợp tác thân thiết, bền chặt trong việc cung cấp giải pháp tăng cường quản trị rủi ro hiệu quả cho nhiều Ngân hàng uy tín trên toàn quốc như: TechcomBank, VPBank, MB, TPBank, VIB, ABBANK, Maritime Bank … và một số công ty tài chính khác...</div>
+        <div class="lst-bank slider-mobile-only">
+            <div class="bank-item">
+                <img src="asset/images/bank/1.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/2.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/3.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/4.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/5.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/6.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/7.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/8.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/9.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/10.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/11.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/12.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/13.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/14.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/15.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/16.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/17.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/18.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/19.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/20.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/21.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/22.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/23.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/24.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/25.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/26.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/27.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/28.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/29.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/30.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/31.png" alt="">
+            </div>
+            <div class="bank-item">
+                <img src="asset/images/bank/32.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-cb">
+    <div class="container">
+        <div class="title-page">Cảnh báo rủi ro</div>
+        <div class="row">
+            <div class="col-12 col-md-7 mb-4 mb-md-0">
+                <div class="news-item-extra">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/news.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h4 class="title">Hot girl cầm đầu đường dây làm CCCD giả mở tài khoản ngân hàng</h4>
+                            <div class="txt">Sau khi dùng căn cước công dân giả để mở hơn 200 tài khoản ngân hàng ở Hà Nội, Tú cùng đồng bọn vào Đà Nẵng tiếp tục thực hiện hành vi phạm pháp này, thì bị công an phát hiện. Ngày 14/7, Phòng Cảnh sát Hình sự Công an TP Đà Nẵng thực hiện lệnh bắt tạm giam ...</div>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="news-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/sp.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/sp.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/sp.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/sp.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-item">
+                    <a href="">
+                        <div class="img">
+                            <img src="asset/images/sp.png" alt="">
+                        </div>
+                        <div class="ct">
+                            <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                            <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-md-6">
+                <div class="box-news">
+                    <div class="title-b">Tin tức & Hoạt động</div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <div class="box-news">
+                    <div class="title-b">Hỗ trợ</div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="">
+                            <div class="img">
+                                <img src="asset/images/sp.png" alt="">
+                            </div>
+                            <div class="ct">
+                                <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-dk">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 dk-left">
+                <div class="wrap-dk-left">
+                    <div class="box-contact">
+                        <div class="title">Trụ sở tại Hà Nội:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Tầng 10, Tòa Nhà Thái Bình, số 2A Đại Cồ Việt, P. Lê Đại Hành, Q. Hai Bà Trưng, Hà Nội</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                    <div class="box-contact">
+                        <div class="title">CN tại Tp. Hồ Chí Minh:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Lầu 5B, Tòa nhà Smart View, số 163 Trần Hưng Đạo, P. Cô Giang, Quận 1, TP. HCM</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 dk-right">
+                <div class="wrap-dk-right">
+                    <div class="text-center">
+                        <h5 class="font2 bold700 text-white">Bạn cần hỗ trợ?</h5>
+                        <h3 class="font2 bold700 text-white">Đăng ký tư vấn ngay</h3>
+                        <div class="text-white">Để lại thông tin bên dưới, Nguyên Thực sẽ liên hệ với bạn trong thời gian sớm nhất!</div>
+                    </div>
+                    <form action="" class="form-dk mt-4">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" placeholder="Họ tên *">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Số điện thoại*">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="btn btn-dk">GỬI XÁC NHẬN TƯ VẤN <i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="d-flex foot-left">
+                    <div class="logo-foot">
+                        <img src="asset/images/logo-red.svg" alt="">
+                    </div>
+                    <div class="copyright">
+                        <h6 class="bold600">Công ty cổ phần tư vấn <strong class="text-base">Nguyên Thực</strong></h6>
+                        <small>© 2022 <strong>Nguyên Thực</strong>. All Rights Reserved.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="d-flex align-items-center foot-right">
+                    <ul>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                    </ul>
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="asset/js/source.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+@media (min-width: 576px) {
+
+}
+
+/*pc*/
+@media (min-width: 1025px) {
+
+}
+
+/*laptop*/
+@media (max-width: 1024px) {
+}
+
+/*tablet*/
+@media (max-width: 768px) {
+    .des-img{
+        font-size: 14px;
+    }
+    .foot-left {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .copyright h6{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .dk-left{
+        padding: 40px 15px;
+    }
+    .wrap-dk-left {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .box-contact {
+        max-width: 100%;
+        width: 100%;
+    }
+    .foot-right {
+        flex-wrap: wrap;
+    }
+    .foot-right ul {
+
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .contact-icon{
+        width: 100%;
+        justify-content: center;
+    }
+    .foot-right ul a {
+        font-size: 12px;
+    }
+    .news-item-extra .img {
+        min-height: auto;
+    }
+
+    .title-page {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .section-cb {
+        padding: 30px 0;
+    }
+
+    .section-cc {
+        padding: 35px 0;
+    }
+
+    .lst-bank {
+        flex-wrap: wrap;
+    }
+
+    .bank-item {
+        width: calc(100% / 5);
+    }
+
+    .bank-item img {
+        width: 100px;
+    }
+    .good-box {
+        flex-wrap: wrap;
+    }
+
+    .good-box-item img {
+        width: 50px;
+    }
+
+    .good-box-item {
+        width: 50%;
+        font-size: 14px;
+    }
+
+    .img-b .img {
+        height: 250px;
+    }
+
+    .section-tv {
+        padding: 30px 0;
+    }
+
+    .title-nt {
+        font-size: 25px;
+    }
+
+    .section-tv h5 {
+        font-size: 18px;
+    }
+    .header-top {
+        display: none;
+    }
+    .ct-title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .navbar .x-contact {
+        display: block;
+    }
+    .banner-child {
+        padding: 30px 0;
+    }
+
+    .banner-child .title-second {
+        font-size: 22px;
+    }
+
+    .banner-child .title-first {
+        font-size: 18px;
+    }
+    .box-step .ct .title {
+        margin-top: 10px;
+    }
+
+    .b-menu .title {
+        font-size: 14px;
+    }
+
+    .m-body a {
+        font-size: 14px;
+    }
+
+    .lo-item {
+        margin-top: 10px;
+    }
+    .title-child {
+        font-size: 18px;
+    }
+    form.form-send-info {
+        margin-bottom: 40px;
+    }
+    .menu-ads-lst a {
+        font-size: 14px;
+    }
+    .news-item .title {
+        font-size: 14px;
+    }
+    .tab-step h5 {
+        font-size: 18px;
+    }
+    .p-info{
+        max-width: 100%;
+    }
+    .plan-box {
+        width: 100%;
+    }
+
+    .plans .line {
+        left: 15px;
+    }
+
+    .plan-box .date {
+        transform: translateX(0);
+        height: 36px;
+    }
+
+    .plan-box.right .txt {
+        max-width: 100%;
+        transform: translateX(0) !important;
+    }
+
+    .plan-box .txt {
+        max-width: none;
+        transform: translateX(0);
+        text-align: left;
+        padding-left: 68px;
+    }
+
+    .plans .plan-box {
+        margin-top: 0;
+        transform: none;
+    }
+
+    * {}
+
+    .img-gt {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .dh-bank {
+        margin-top: 10px;
+    }
+
+    .dh-bank img {
+        width: 100px;
+    }
+
+    .values img {
+        width: 40px;
+    }
+
+    .values {
+        padding: 0 15px;
+    }
+
+    .section-gt {
+        background-position-x: 60%;
+    }
+
+    .plan-box.left img {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .plan-box.left .date {
+        transform: translateX(-13px);
+    }
+
+    .plans {
+        padding-top: 30px;
+        margin-top: 30px;
+        padding: 30px 16px;
+    }
+
+    .plans .line img {
+        height: 100%;
+    }
+
+    .plan-box img {
+        width: 240px;
+        position: absolute;
+        left: 3px;
+    }
+
+    .plan-box .date span {
+        left: 140px !important;
+        top: 18px;
+    }
+
+    .plan-box.right .date span {
+    }
+}
+
+
+@media (max-width: 556px) {
+
+    .bank-item {
+        width: 100%;
+    }
+
+    .bank-item img {
+        width: 65px;
+    }
+    .news-full .img {
+        width: 150px;
+        height: 115px;
+    }
+
+    .news-full .ct .txt {
+        -webkit-line-clamp: 2;
+    }
+
+    .news-inline .ct {
+        width: calc(100% - 30px);
+        bottom: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+
+}

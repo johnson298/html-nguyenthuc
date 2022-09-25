@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/bootstrap-5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/fontawesome-6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="asset/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/responsive.css">
+
+    <script src="asset/js/jquery-3.6.0.min.js"></script>
+    <script src="asset/bootstrap-5.2.0/js/bootstrap.bundle.min.js"></script>
+
+    <script src="asset/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="asset/js/source.js"></script>
+
+
+</head>
+<body>
+
+<header>
+    <div class="header-top">
+        <div class="left">
+            <h6>Nguyễn Thực</h6>
+            <span>Tư vấn xác thực tài liệu thật giả</span>
+        </div>
+        <div class="right">
+            <div>
+                <img src="asset/images/icon/phone.svg" alt="" class="icon">
+                09876543345
+            </div>
+            <div class="form-search-top">
+                <form action="">
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">
+                            <img src="asset/images/icon/search.svg" alt="">
+                        </span>
+                        <input type="text" class="form-control" placeholder="Tìm kiếm">
+                    </div>
+                </form>
+            </div>
+            <div class="contact-icon">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="asset/images/logo.svg" alt="">
+            </a>
+            <div class="x-contact x-contact-top">
+                <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                <div class="txt">
+                    <div>Hotline 24/7:</div>
+                    <strong class="d-block">0987654233</strong>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Tư vấn xác thực
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Đào tạo
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">Xác thực tài liệu theo yêu cầu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Rà soát hồ sơ kho quỹ </a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Đăng ký tư vấn xác thực tài liệu<strong
+                                        class="float-end">&raquo;</strong> </a>
+                                <div class="submenu dropdown-menu mega-submenu p-3">
+                                    <div class="menu-child-right">
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ tùy thân</a></div>
+                                        <div class="mn"><a href="">Giấy tờ xe</a></div>
+                                        <div class="mn"><a href="">Hợp đồng, giấy nhận nợ</a></div>
+                                        <div class="mn"><a href="">Bằng cấp, chứng chỉ đào tạo</a></div>
+                                        <div class="mn"><a href="">Chữ ký, hình dấu</a></div>
+                                        <div class="mn"><a href="">Tính nguyên thủy của tài liệu</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ sang tên BĐS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cảnh báo rủi ro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hỗ trợ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <div class="menu-mobile-top">
+                <img src="asset/images/logo.svg" alt="">
+                <span>Tư vấn xác thực tài liệu thật giả</span>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="menu-mobile">
+
+                <ul>
+                    <li class="active"><a href="">Trang chủ</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li>
+                        <a data-bs-toggle="collapse" href="#collapsetuvan" role="button" aria-expanded="false"
+                           aria-controls="collapsetuvan">Tư vấn xác thực <i class="fa-solid fa-angle-down"></i></a>
+                        <div class="collapse" id="collapsetuvan">
+                            <div class="menu-mobile-child">
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                                <div class="menu-c"><a href="">Tư vấn abc</a></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="">Đào tạo</a></li>
+                    <li><a href="">Hỗ trợ sang tên BĐS</a></li>
+                    <li><a href="">Cảnh báo rủi ro</a></li>
+                    <li><a href="">Hỗ trợ</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+
+                <div class="d-flex justify-content-center">
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="banner-child">
+    <div class="container">
+        <h5 class="title-first">Dịch vụ</h5>
+        <h3 class="title-second">Chương trình đào tạo</h3>
+    </div>
+</div>
+
+<div class="wrapper py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-8">
+                <img src="asset/images/banner-dt.png" alt="" class="img-fluid w-100 mb-3">
+                <div>Để đáp ứng nhu cầu phát triển kỹ năng nhận biết, phân biệt giấy tờ, tài liệu thật giả của những người làm công tác xử lý hồ sơ tiếp nhận từ khách hàng và tư vấn các giải pháp
+                    phòng ngừa rủi ro về tài liệu cũng như phòng chống tội phạm trong lĩnh vực tài chính, ngân hàng cho các ngân hàng thương mại và doanh nghiệp, Nguyên Thực thường xuyên tổ chức các
+                    khóa đào tạo nghiệp vụ có thực hành ở cấp độ cơ bản và chuyên sâu.
+                </div>
+                <div class="br-step">
+                    <h4 class="font2 bold700 title-child text-center mt-4"> <span class="text-base">Đặc điểm nổi bật của</span> dịch vụ: </h4>
+                    <div class="dv-sl row mt-3">
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            Học viên có thể dễ dàng tiếp thu kiến thức lý thuyết cơ bản thông qua những hình ảnh rút ra từ các vụ án có thật liên quan đến ngành tài chính, ngân hàng.
+                        </div>
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            <img src="asset/images/x-dv.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            Trang bị các thiết bị kỹ thuật như kính hiển vi cầm tay, đèn cực tím và cung cấp tiêu bản thực hành cho phần bài tập tình huống, qua đó giúp các học viên phát triển và rèn
+                            luyện kỹ năng phân biệt tài liệu, chứng từ thật/giả và có thể áp dụng
+                        </div>
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            <img src="asset/images/x-dv.png" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            Học viên có thể dễ dàng tiếp thu kiến thức lý thuyết cơ bản thông qua những hình ảnh rút ra từ các vụ án có thật liên quan đến ngành tài chính, ngân hàng.
+                        </div>
+                        <div class="col-6 col-md-4 dv-sl-item">
+                            <img src="asset/images/x-dv.png" alt="" class="img-fluid w-100">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="t-cx my-5">
+                    <div class="title">Đội ngũ giảng viên giàu kinh nghiệm</div>
+                    <div class="quote-title quote-tx">
+                        <span><img src="asset/images/icon/quote.svg" alt=""></span>
+                    </div>
+                    <div class="text-center">Nguyên Thực luôn nỗ lực không ngừng phát triển, nâng cao chất lượng cả về nội dung chương trình đào tạo cũng như chất lượng giảng dạy và tư vấn của đội ngũ
+                        giảng viên. Nguyên Thực cũng luôn chú trọng trong việc tìm kiếm và quy chuẩn trình độ giảng dạy của các giảng viên.
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center mt-4">
+                        <div class="x-contact">
+                            <a href="">
+                                <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                <div class="txt">
+                                    <div>Hotline 24/7:</div>
+                                    <strong class="d-block">0987654233</strong>
+                                </div>
+                            </a>
+                        </div>
+                        <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img src="asset/images/icon/mail.svg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="row box-tc">
+                    <div class="col-12 col-md-6">
+                        <img src="asset/images/box-tc.png" alt="" class="img-fluid w-100">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="x-tc mt-3 mt-md-0">
+                            <h5>Tiêu chuẩn tuyển chọn giảng viên:</h5>
+                            <div class="btn-step">Trình độ giảng viên:</div>
+                            <div class="my-2">Đại học và sau Đại học chuyên ngành.</div>
+                            <div class="btn-step">Kinh nghiệm:</div>
+                            <div class="my-2">có hơn 25 năm kinh nghiệm công tác và hơn 05 năm kinh nghiệm trên vị trí giám sát/quản lý trong lĩnh vực được giảng dạy.</div>
+                            <div class="btn-step">Quy trình đào tạo:</div>
+                            <div class="my-2">Kết luận tư vấn xác thực</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row x-dt">
+                    <div class="col-12 col-md-6">
+                        <div class="x-tc mt-3">
+                            <h5>Quy trình đào tạo:</h5>
+                            <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Khảo sát đánh giá trình độ học viên trước khóa học</div>
+                            <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Đào tạo lý thuyết và thực hành trên lớp (Nguyên Thực chuẩn bị tài liệu cho học viên, chuẩn bị
+                                các tiêu bản tài liệu thật và giả cho học viên thực hành, cung cấp thiết bị kỹ thuật cho học viên thực hành)
+                            </div>
+                            <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Kiểm tra cuối khóa học</div>
+                            <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Đánh giá kết quả và cấp chứng chỉ</div>
+                            <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Làm báo cáo tổng kết đánh giá sau khóa học gửi cho khách hàng</div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="asset/images/qt-dt.png" alt="" class="img-fluid w-100">
+                    </div>
+                </div>
+
+                <div class="b-menu mt-5">
+                    <div class="title">
+                        <i class="fa-solid fa-bars"></i> Các nội dung đào tạo kỹ năng cơ bản:
+                    </div>
+                    <div class="m-body">
+                        <a href="#tab1"><i class="fa-solid fa-chevron-right"></i><span>Nhận biết tiền thật, tiền giả</span></a>
+                        <a href="#tab2"><i class="fa-solid fa-chevron-right"></i><span>Nhận biết chữ ký, hình dấu, chứng từ và tài liệu thật giả</span></a>
+                        <a href="#tab3"><i class="fa-solid fa-chevron-right"></i><span>Thực trạng tội phạm trong lĩnh vực Ngân hàng và giải pháp phòng ngừa</span></a>
+                    </div>
+                </div>
+
+                <div class="br-step">
+                    <div id="tab1" class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Nhận biết  <span class="text-base">tiền thật, tiền giả</span></div>
+                    <div class="tab-step">
+                        <h5>1. Đối tượng nên tham gia khóa học:</h5>
+                        <div>Thủ quỹ, thu ngân, kế toán, nhân viên bán hàng và những người tiếp nhận và quản lý tiền mặt </div>
+                        <div class="row img-st my-4">
+                            <div class="col-6">
+                                <img src="asset/images/dt1.png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6">
+                                <img src="asset/images/dt2.png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <h5>2. Nội dung đào tạo:</h5>
+                        <div class="my-2">Trang bị cho học viên kiến thức chung về:</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Các đặc điểm bảo an trên giấy bạc</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Các phương pháp làm giả giấy bạc thường gặp</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Các kỹ năng nhận biết và phân biệt giấy bạc thật/giả</div>
+                        <h5>3. Phương pháp đào tạo:</h5>
+                        <div class="my-2">Giới thiệu lý thuyết và hướng dẫn thực hành</div>
+                        <div class="d-flex align-items-center">
+                            <h5 class="mr-3 d-inline-block mb-0"><span>4. Thời lượng đào tạo:</span></h5> <div class="btn-base btn ms-2 py-1 px-2">01 ngày</div>
+                        </div>
+                    </div>
+                    <div class="box-tv">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="x-contact">
+                                <a href="">
+                                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="txt">
+                                        <div>Hotline 24/7:</div>
+                                        <strong class="d-block">0987654233</strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img
+                                    src="asset/images/icon/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="br-step">
+                    <div id="tab2" class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Nhận biết  <span class="text-base">chữ ký, hình dấu, chứng từ và tài liệu thật giả</span></div>
+                    <div class="tab-step">
+                        <h5>1. Đối tượng nên tham gia khóa học:</h5>
+                        <div>Cán bộ tín dụng, thẩm định, những người tiếp nhận giấy tờ, hồ sơ của khách hàng</div>
+                        <div class="row img-st my-4">
+                            <div class="col-6">
+                                <img src="asset/images/ck1.png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6">
+                                <img src="asset/images/ck2.png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <h5>2. Nội dung đào tạo:</h5>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Trang bị cho học viên kiến thức cơ bản về chữ ký, các thủ đoạn giả mạo chữ ký và căn cứ nhận biết chữ ký giả mạo</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Trang bị cho học viên kiến thức cơ bản về hình dấu, cơ sở nhận biết hình dấu giả mạo, các đặc điểm của tài liệu, chứng từ bị tẩy xóa, chèn thêm nội dung, tài liệu bị thay ảnh, thay trang, lột dán ghép, các phương pháp in, mẫu phôi in</div>
+                        <h5>3. Phương pháp đào tạo:</h5>
+                        <div class="my-2">Giới thiệu lý thuyết và hướng dẫn thực hành</div>
+                        <div class="d-flex align-items-center">
+                            <h5 class="mr-3 d-inline-block mb-0"><span>4. Thời lượng đào tạo:</span></h5> <div class="btn-base btn ms-2 py-1 px-2">01 ngày</div> <div class="btn-base btn ms-2 py-1 px-2">1/2 ngày</div>
+                        </div>
+                    </div>
+                    <div class="box-tv">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="x-contact">
+                                <a href="">
+                                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="txt">
+                                        <div>Hotline 24/7:</div>
+                                        <strong class="d-block">0987654233</strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img
+                                    src="asset/images/icon/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="br-step">
+                    <div id="tab3" class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Thực trạng tội phạm trong  <span class="text-base">lĩnh vực ngân hàng và giải pháp phòng ngừa</span></div>
+                    <div class="tab-step">
+                        <h5>1. Đối tượng nên tham gia khóa học:</h5>
+                        <div>Cán bộ nhân viên ngân hàng và các tổ chức tài chính khác</div>
+                        <div class="row img-st my-4">
+                            <div class="col-6">
+                                <img src="asset/images/tp1.png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6">
+                                <img src="asset/images/tp2.png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <h5>2. Nội dung đào tạo:</h5>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Cập nhật tình hình tội phạm trong lĩnh vực ngân hàng thông qua các vụ án mới được phát hiện, điều tra, truy tố, và xét xử. Tổng hợp các thủ đoạn phạm tội điển hình của tội phạm là khách hàng và tội phạm là chính cán bộ, nhân viên ngân hàng.</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Tư vấn các giải pháp để phòng ngừa tội phạm, tránh tiếp tay cho tội phạm, ngăn ngừa rủi ro và thiệt hại cho ngân hàng. </div>
+                        <h5>3. Phương pháp đào tạo:</h5>
+                        <div class="my-2">Chia sẻ kinh nghiệm và tư vấn</div>
+                        <div class="d-flex align-items-center">
+                            <h5 class="mr-3 d-inline-block mb-0"><span>4. Thời lượng đào tạo:</span></h5> <div class="btn-base btn ms-2 py-1 px-2">01 ngày</div>
+                        </div>
+                    </div>
+                    <div class="box-tv">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="x-contact">
+                                <a href="">
+                                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="txt">
+                                        <div>Hotline 24/7:</div>
+                                        <strong class="d-block">0987654233</strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img
+                                    src="asset/images/icon/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="b-menu mt-5">
+                    <div class="title">
+                        <i class="fa-solid fa-bars"></i> Các nội dung đào tạo kỹ năng chuyên sâu:
+                    </div>
+                    <div class="m-body">
+                        <a href="#tab8"><i class="fa-solid fa-chevron-right"></i><span>Nhận biết chữ viết, chữ ký giả mạo</span></a>
+                        <a href="#tab10"><i class="fa-solid fa-chevron-right"></i><span>Nhận biết hình dấu, ấn phẩm, tài liệu giả</span></a>
+                    </div>
+                </div>
+
+                <div class="br-step">
+                    <div id="tab9" class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Nhận biết  <span class="text-base">chữ ký, hình dấu, chứng từ và tài liệu thật giả</span></div>
+                    <div class="tab-step">
+                        <h5>1. Đối tượng nên tham gia khóa học:</h5>
+                        <div>Cán bộ tín dụng, thẩm định, những người tiếp nhận giấy tờ, hồ sơ của khách hàng</div>
+                        <div class="row img-st my-4">
+                            <div class="col-6">
+                                <img src="asset/images/hd1.png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6">
+                                <img src="asset/images/hd2.png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <h5>2. Nội dung đào tạo:</h5>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Trang bị cho học viên kiến thức cơ bản về chữ ký, các thủ đoạn giả mạo chữ ký và căn cứ nhận biết chữ ký giả mạo</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Trang bị cho học viên kiến thức cơ bản về hình dấu, cơ sở nhận biết hình dấu giả mạo, các đặc điểm của tài liệu, chứng từ bị tẩy xóa, chèn thêm nội dung, tài liệu bị thay ảnh, thay trang, lột dán ghép, các phương pháp in, mẫu phôi in </div>
+                        <h5>3. Phương pháp đào tạo:</h5>
+                        <div class="my-2">Giới thiệu lý thuyết và hướng dẫn thực hành</div>
+                        <div class="d-flex align-items-center">
+                            <h5 class="mr-3 d-inline-block mb-0"><span>4. Thời lượng đào tạo:</span></h5> <div class="btn-base btn ms-2 py-1 px-2">01 ngày</div> <div class="btn-base btn ms-2 py-1 px-2">1/2 ngày</div>
+                        </div>
+                    </div>
+                    <div class="box-tv">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="x-contact">
+                                <a href="">
+                                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="txt">
+                                        <div>Hotline 24/7:</div>
+                                        <strong class="d-block">0987654233</strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img
+                                    src="asset/images/icon/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="br-step">
+                    <div id="tab10" class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Nhận biết  <span class="text-base">hình dấu, ấn phẩm, tài liệu giả</span></div>
+                    <div class="tab-step">
+                        <h5>1. Đối tượng nên tham gia khóa học:</h5>
+                        <div>CBNV đã được qua đào tạo ở cấp độ cơ bản và hoặc/ đã có từ 02 năm trở lên kinh nghiệm tác nghiệp thực tế tại các bộ phận Tín dụng, Thẩm định, Hỗ trợ, Kiểm soát,…và các cán bộ quản lý cấp trung trở lên.</div>
+                        <div class="row img-st my-4">
+                            <div class="col-6">
+                                <img src="asset/images/ap1.png" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="col-6">
+                                <img src="asset/images/ap2.png" alt="" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <h5>2. Nội dung đào tạo:</h5>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Hướng dẫn học viên các phương pháp nghiên cứu giám định tài liệu; Nghiên cứu giám định hình dấu bằng phương pháp phân tích so sánh</div>
+                        <div class="b-ks"><img src="asset/images/icon/ks.svg" alt="" class="mr-2"> Nghiên cứu nhận biết tài liệu giả qua giám định ấn phẩm và một số Phương thức làm giả tài liệu và dấu hiệu nhận biết.</div>
+                        <h5>3. Phương pháp đào tạo:</h5>
+                        <div class="my-2">Giới thiệu lý thuyết và hướng dẫn thực hành, kiểm tra thực hành</div>
+                        <div class="d-flex align-items-center">
+                            <h5 class="mr-3 d-inline-block mb-0"><span>4. Thời lượng đào tạo:</span></h5>
+                        </div>
+                    </div>
+                    <div class="box-tv">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="x-contact">
+                                <a href="">
+                                    <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>
+                                    <div class="txt">
+                                        <div>Hotline 24/7:</div>
+                                        <strong class="d-block">0987654233</strong>
+                                    </div>
+                                </a>
+                            </div>
+                            <a href="" class="btn btn-base ms-3 d-inline-block">LIÊN HỆ TƯ VẤN <img
+                                    src="asset/images/icon/mail.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="br-step">
+                    <div class="title-tab mt-5"><i class="fa-solid fa-caret-right"></i> Đăng ký  <span class="text-base">tham gia khóa học đào tạo online</span></div>
+                    <div class="dk-online box-qt">
+                        <div class="mb-3">Để lại thông tin bên dưới Nguyên Thực sẽ liên hệ với bạn trong thời gian sớm nhất!</div>
+                        <form action="" class="form-dk-online row">
+                            <div class="form-group col-12 col-md-6 mb-2">
+                                <input type="text" class="form-control" placeholder="Họ tên *">
+                            </div>
+                            <div class="form-group col-12 col-md-6 mb-2">
+                                <input type="text" class="form-control" placeholder="Số điện thoại *">
+                            </div>
+                            <div class="form-group col-12 col-md-6 mb-2">
+                                <label for="" class="d-block bold600 d-block mb-2">Khóa học cơ bản</label>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b1">
+                                    <label class="form-check-label" for="b1">Nhận biết tiền thật, tiền giả</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b2">
+                                    <label class="form-check-label" for="b2">Nhận biết chữ ký, hình dấu, chứng từ và tài liệu thật giả</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b3">
+                                    <label class="form-check-label" for="b3">Thực trạng tội phạm trong lĩnh vực Ngân hàng và giải pháp phòng ngừa</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 col-md-6 mb-2">
+                                <label for="" class="d-block bold600 d-block mb-2">Khóa học cơ bản</label>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b4">
+                                    <label class="form-check-label" for="b4">Nhận biết chữ viết, chữ ký giả mạo</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b5">
+                                    <label class="form-check-label" for="b5">Nhận biết chữ ký, hình dấu, chứng từ và tài liệu thật giả</label>
+                                </div>
+                                <div class="form-check mb-2">
+                                    <input class="form-check-input" type="checkbox" value="" id="b6">
+                                    <label class="form-check-label" for="b6">Nhận biết hình dấu, ấn phẩm, tài liệu giả</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <button class="btn btn-base">GỬI THÔNG TIN</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-end my-4">
+                    <div class="box-share">
+                        <strong>Chia sẻ:</strong>
+                        <div class="icons">
+                            <a href="" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="" class="google"><i class="fa-brands fa-google-plus-g"></i></a>
+                            <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="menu-ads mb-4">
+                    <div class="title">Dịch vụ Nguyên Thực</div>
+                    <div class="menu-ads-lst mb-4">
+                        <a href=""><i class="fa-solid fa-chevron-right"></i> Xác thực tài liệu theo yêu cầu</a>
+                        <a href=""><i class="fa-solid fa-chevron-right"></i> Rà soát hồ sơ kho quỹ</a>
+                        <a href=""><i class="fa-solid fa-chevron-right"></i> Đăng ký tư vấn xác thực tài liệu</a>
+                        <a href=""><i class="fa-solid fa-chevron-right"></i> Sang tên bất động sản</a>
+                        <a href=""><i class="fa-solid fa-chevron-right"></i> Chương trình đào tạo</a>
+                    </div>
+                </div>
+                <div class="img-ads mb-4">
+                    <img src="asset/images/ads.png" class="img-fluid w-100" alt="">
+                </div>
+                <div class="box-tt">
+                    <div class="box-tt-title">Bài viết mới nhất</div>
+                    <div class="box-tt-body">
+                        <div class="py-2 border-bottom">
+                            <div class="news-item mb-0">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="asset/images/sp.png" alt="">
+                                    </div>
+                                    <div class="ct">
+                                        <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                        <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="py-2 border-bottom">
+                            <div class="news-item mb-0">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="asset/images/sp.png" alt="">
+                                    </div>
+                                    <div class="ct">
+                                        <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                        <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="py-2 border-bottom">
+                            <div class="news-item mb-0">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="asset/images/sp.png" alt="">
+                                    </div>
+                                    <div class="ct">
+                                        <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                        <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="py-2 border-bottom">
+                            <div class="news-item mb-0">
+                                <a href="">
+                                    <div class="img">
+                                        <img src="asset/images/sp.png" alt="">
+                                    </div>
+                                    <div class="ct">
+                                        <h6 class="title">Cán bộ ngân hàng bị tuyên phạt 21 năm tù vì tội lừa đảo bán xe ô tô</h6>
+                                        <div class="news-date"><img src="asset/images/icon/calendar.svg" alt=""><span>06/08/2022</span></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-dk">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-6 dk-left">
+                <div class="wrap-dk-left">
+                    <div class="box-contact">
+                        <div class="title">Trụ sở tại Hà Nội:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Tầng 10, Tòa Nhà Thái Bình, số 2A Đại Cồ Việt, P. Lê Đại Hành, Q. Hai Bà Trưng, Hà Nội</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                    <div class="box-contact">
+                        <div class="title">CN tại Tp. Hồ Chí Minh:</div>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-location-dot"></i> <span><strong>Địa chỉ:</strong> Lầu 5B, Tòa nhà Smart View, số 163 Trần Hưng Đạo, P. Cô Giang, Quận 1, TP. HCM</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-envelope"></i> <span><strong>Email:</strong> info@nguyenthuc.com</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-phone"></i> <span><strong>Hotline:</strong> 0914.593.553</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-brands fa-square-facebook"></i> <span><strong>facebook:</strong>facebook.com/tuvanxacthuc</span></p>
+                        <p class="mb-2 ct-i"><i class="text-base fa-solid fa-clock"></i> <span><strong>Giờ làm việc:</strong>  08:00 - 17h30</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 dk-right">
+                <div class="wrap-dk-right">
+                    <div class="text-center">
+                        <h5 class="font2 bold700 text-white">Bạn cần hỗ trợ?</h5>
+                        <h3 class="font2 bold700 text-white">Đăng ký tư vấn ngay</h3>
+                        <div class="text-white">Để lại thông tin bên dưới, Nguyên Thực sẽ liên hệ với bạn trong thời gian sớm nhất!</div>
+                    </div>
+                    <form action="" class="form-dk mt-4">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" placeholder="Họ tên *">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Số điện thoại*">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="" class="btn btn-dk">GỬI XÁC NHẬN TƯ VẤN <i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="d-flex foot-left">
+                    <div class="logo-foot">
+                        <img src="asset/images/logo-red.svg" alt="">
+                    </div>
+                    <div class="copyright">
+                        <h6 class="bold600">Công ty cổ phần tư vấn <strong class="text-base">Nguyên Thực</strong></h6>
+                        <small>© 2022 <strong>Nguyên Thực</strong>. All Rights Reserved.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex align-items-center">
+                <div class="d-flex align-items-center foot-right">
+                    <ul>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                    </ul>
+                    <div class="contact-icon">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="asset/js/source.js"></script>
+</body>
+</html>
