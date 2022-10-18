@@ -194,6 +194,10 @@
 
     * {}
 
+    .navbar-brand.logo:before {
+        display: none;
+    }
+
     .img-gt {
         height: auto;
         margin-top: 20px;

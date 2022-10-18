@@ -38,4 +38,12 @@ $(".slide-activity").slick({
     slidesToShow: 3,
     slidesToScroll: 3,
     arrows: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1
+            }
+        },
+    ]
 })
